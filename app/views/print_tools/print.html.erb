@@ -1,0 +1,8 @@
+<h1>Print Utility</h1>
+
+<div><%= @message %></div>
+
+<%= form_tag({}, {:multipart => true}) do %>
+  <%= file_field_tag 'to_print' %>
+  <%= submit_tag("Print!") %>
+<% end %>
