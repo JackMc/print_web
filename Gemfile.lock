@@ -29,8 +29,10 @@ GEM
       tzinfo (~> 1.1)
     arel (5.0.1.20140414130214)
     builder (3.2.2)
-    cups (0.1.9)
     erubis (2.7.0)
+    figaro (0.7.0)
+      bundler (~> 1.0)
+      rails (>= 3, < 5)
     hike (1.2.3)
     i18n (0.6.11)
     json (1.8.1)
@@ -83,6 +85,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  cups (~> 0.1.9)
+  figaro
   rails (= 4.1.4)
   sqlite3

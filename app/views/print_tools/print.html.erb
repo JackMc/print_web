@@ -4,5 +4,6 @@
 
 <%= form_tag({}, {:multipart => true}) do %>
   <%= file_field_tag 'to_print' %>
+  <%= password_field_tag 'print_pwd' %>
   <%= submit_tag("Print!") %>
 <% end %>
