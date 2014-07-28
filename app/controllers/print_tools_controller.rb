@@ -7,7 +7,7 @@ class PrintToolsController < ApplicationController
   # POST
   def do_print
     ext_convert = [".odt", ".docx", ".doc"]
-    ext_fine = [".png", ".pdf", ".jpeg", ".bmp"]
+    ext_fine = [".png", ".pdf", ".jpeg",".jpg", ".bmp"]
     supported_exts = ext_convert + ext_fine
     
     uploaded_io = params[:to_print]
